@@ -1,0 +1,583 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1.2rem 0; /* 1.2 rem means 1.2 times the font-size of the element */ 
+    height: 60px; 
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    display: flex;
+    align-items: baseline; /* this will align the span with the h1 text */
+    margin-right: auto; /* Push navigation to the right */
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+
+
+/* ... (Rest of your CSS, from .hero onwards) ... */
+.hero {
+    background-color: #f0f0f0;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.search-bar {
+    margin-top: 2.5rem;
+}
+
+.search-bar input[type="text"] {
+    padding: 0.8rem;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.info {
+    padding: 4rem 0;
+}
+
+.info .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    width: 45%;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.info-item:hover {
+    transform: translateY(-5px);
+}
+
+.info-item h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.info-item p {
+    font-size: 1.1rem;
+}
+
+.events {
+    background-color: #e9ecef;
+    padding: 4rem 0;
+}
+
+.events h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.event-item {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.event-item:hover {
+    transform: translateY(-5px);
+}
+
+.event-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.event-item p {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.event-item a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.event-item a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 1rem;
+}
+
+/* style.css (Additions and Modifications) */
+
+/* ... (Previous CSS) ... */
+
+/* style.css (Additions and Modifications - Alumni Page) */
+
+.alumni-profiles {
+    padding: 4rem 0; /* Adjusted padding */
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted minmax width */
+    gap: 30px; /* Adjusted gap */
+    margin-top: 30px; /* Adjusted margin */
+}
+
+.profile-card {
+    background-color: white;
+    padding: 1.5rem; /* Adjusted padding */
+    border-radius: 12px; /* Added border-radius */
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+    transition: transform 0.3s ease; /* Added transition */
+}
+
+.profile-card:hover {
+    transform: translateY(-5px); /* Added hover effect */
+}
+
+.profile-card img {
+    width: 120px; /* Adjusted image width */
+    height: 120px; /* Adjusted image height */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.profile-card h3 {
+    font-size: 1.3rem; /* Adjusted font size */
+    margin-bottom: 8px; /* Adjusted margin */
+}
+
+.profile-card p {
+    font-size: 1.1rem; /* Adjusted font size */
+    margin-bottom: 12px; /* Adjusted margin */
+}
+
+.profile-card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 1.6rem; /* Adjusted padding */
+    text-decoration: none;
+    border-radius: 6px; /* Adjusted border-radius */
+    font-size: 1rem; /* Adjusted font size */
+}
+
+/* style.css (Additions and Modifications) */
+
+/* ... (Previous CSS) ... */
+
+/* style.css (Additions and Modifications - Student Profiles) */
+
+.student-profiles {
+    padding: 4rem 0; /* Adjusted padding */
+}
+
+.student-profiles .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted minmax width */
+    gap: 30px; /* Adjusted gap */
+    margin-top: 30px; /* Adjusted margin */
+}
+
+.student-profiles .profile-card {
+    background-color: white;
+    padding: 1.5rem; /* Adjusted padding */
+    border-radius: 12px; /* Added border-radius */
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+    transition: transform 0.3s ease; /* Added transition */
+}
+
+.student-profiles .profile-card:hover {
+    transform: translateY(-5px); /* Added hover effect */
+}
+
+.student-profiles .profile-card img {
+    width: 120px; /* Adjusted image width */
+    height: 120px; /* Adjusted image height */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.student-profiles .profile-card h3 {
+    font-size: 1.3rem; /* Adjusted font size */
+    margin-bottom: 8px; /* Adjusted margin */
+}
+
+.student-profiles .profile-card p {
+    font-size: 1.1rem; /* Adjusted font size */
+    margin-bottom: 12px; /* Adjusted margin */
+}
+
+.student-profiles .profile-card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 1.6rem; /* Adjusted padding */
+    text-decoration: none;
+    border-radius: 6px; /* Adjusted border-radius */
+    font-size: 1rem; /* Adjusted font size */
+}
+.event-item
+{
+    border: 2px solid gray;
+}
+
+.create-event
+{
+    text-align: center;
+}
+
+.create-event button {
+    background-color: #28a745; /* Green background */
+    height: 35px;
+    width: 200px;
+    color: white; /* White text */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin-bottom: 20px;
+}
+
+.create-event button:hover {
+    background-color: #1e7e34; /* Darker green on hover */
+}
+
+.create-event {
+    text-align: center; /* Center the button */
+    margin-top: 20px; /* add some space above the button */
+}
+
+/* style.css (Additions and Modifications) */
+
+/* ... (Previous CSS) ... */
+
+/* style.css (Additions and Modifications - Mentorship Page) */
+
+.mentorship-page {
+    padding: 4rem 0; /* Adjusted padding */
+}
+
+.mentorship-search {
+    text-align: center;
+    margin-bottom: 3rem; /* Adjusted margin */
+}
+
+.mentorship-search input[type="text"] {
+    padding: 1rem; /* Adjusted padding */
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Adjusted border-radius */
+    font-size: 1rem; /* Adjusted font size */
+}
+
+.mentorship-search button {
+    padding: 1rem 2rem; /* Adjusted padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px; /* Adjusted border-radius */
+    cursor: pointer;
+    font-size: 1rem; /* Adjusted font size */
+}
+
+.mentor-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted minmax width */
+    gap: 30px; /* Adjusted gap */
+    margin-top: 30px; /* Adjusted margin */
+}
+
+.mentor-card {
+    background-color: white;
+    padding: 1.5rem; /* Adjusted padding */
+    border-radius: 12px; /* Added border-radius */
+    text-align: center;
+    box-shadow: 0 19px 10px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+    transition: transform 0.3s ease; /* Added transition */
+}
+
+.mentor-card:hover {
+    transform: translateY(-5px); /* Added hover effect */
+}
+
+.mentor-card img {
+    width: 120px; /* Adjusted image width */
+    height: 120px; /* Adjusted image height */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.mentor-card h3 {
+    font-size: 1.3rem; /* Adjusted font size */
+    margin-bottom: 8px; /* Adjusted margin */
+}
+
+.mentor-card p {
+    font-size: 1.1rem; /* Adjusted font size */
+    margin-bottom: 12px; /* Adjusted margin */
+}
+
+.request-mentor {
+    background-color: #28a745;
+    color: white;
+    padding: 0.8rem 1.6rem; /* Adjusted padding */
+    border: none;
+    border-radius: 6px; /* Adjusted border-radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem; /* Adjusted font size */
+}
+
+.request-mentor:hover {
+    background-color: #1e7e34;
+}
+
+/* login-style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px); /* Adjust for header height */
+    background: linear-gradient(135deg, #e0f2fe, #d1c4e9); /* Gradient background */
+}
+
+.form-container {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 450px;
+    max-width: 90%;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.form-toggle button {
+    background-color: transparent;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #666;
+}
+
+.form-toggle button.active {
+    color: #007bff;
+    font-weight: 600;
+    border-bottom: 2px solid #007bff;
+}
+
+.form-section {
+    display: none;
+}
+
+.form-section.active {
+    display: block;
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section input {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-section input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.form-section button[type="submit"],
+.linkedin-btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-section button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.form-section button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.linkedin-btn {
+    background-color: #0077b5;
+    color: white;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.linkedin-btn:hover {
+    background-color: #005f99;
+}
+
+.user-type-toggle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.user-type-btn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.user-type-btn.active {
+    background-color: #e1f5fe;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.linkedin-login {
+    text-align: center;
+}

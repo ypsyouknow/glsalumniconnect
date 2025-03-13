@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup - GLS University Alumni Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GLS University Alumni Network</h1>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="alumni.html">Alumni Profiles</a></li>
+                    <li><a href="students.html">Student Profiles</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="mentor.html">Mentorship</a></li>
+                    <li><a href="login.html">Login/Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="login-signup-container">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="login-toggle" class="active">Login</button>
+                <button id="signup-toggle" cla>Signup</button>
+            </div>
+
+            <div id="login-form" class="form-section active">
+                <h2>Login</h2>
+                <div class="user-type-toggle">
+                    <button class="user-type-btn active" data-type="alumni">Alumni</button>
+                    <button class="user-type-btn" data-type="student">Student</button>
+                </div>
+                <form class="login-fields">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                    <button type="button" class="linkedin-btn">Login with LinkedIn</button>
+                </form>
+            </div>
+            
+
+            <div id="signup-form" class="form-section">
+                <h2>Signup</h2>
+                <div class="user-type-toggle">
+                    <button class="user-type-btn active" data-type="alumni">Alumni</button>
+                    <button class="user-type-btn" data-type="student">Student</button>
+                </div>
+                <form>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm Password" required>
+                    <button type="submit">Signup</button>
+                    <button type="button" class="linkedin-btn">Signup with LinkedIn</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="login.js"></script>
+</body>
+</html>
